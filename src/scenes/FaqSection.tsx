@@ -86,8 +86,8 @@ const faqs = [
       "To learn more about our service that is including the pricing for each service, check out our Terms of Service or get in touch with us by phone, email, or Whatsapp.",
   },
   {
-    question: "How long does it take you deliver?",
+    question: "How long does it take you to deliver?",
     answer:
-      "Depending on the sort of service we are providing to you, the project may extend for days, weeks, or months, but the purchase and delivery of services usually just takes a couple of hours.",
+      "This is dependent on the sort of service we are providing to you. For project based services, it may extend for days, weeks, or months, depending on how large the project is. But the purchase and delivery of services usually just takes a couple of hours.",
   },
 ];
