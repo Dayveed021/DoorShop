@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import ContactUsPageGraphic from "@/assets/contact.png";
 import HText from "@/shared/HText";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import FaqSection from "../FaqSection";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -160,6 +161,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           </motion.div>
         </div>
       </motion.div>
+      <FaqSection />
     </section>
   );
 };

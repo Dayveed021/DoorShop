@@ -1,10 +1,9 @@
 import { SelectedPage, ClassType } from "@/shared/types";
-import image1 from "@/assets/image1.png";
-import image2 from "@/assets/image2.png";
-import image3 from "@/assets/image3.png";
-import image4 from "@/assets/image4.png";
-import image5 from "@/assets/image5.png";
-import image6 from "@/assets/image6.png";
+import image1 from "@/assets/image8.jpg";
+import image3 from "@/assets/image12.jpg";
+import image4 from "@/assets/image9.jpg";
+import image5 from "@/assets/image10.jpg";
+import image6 from "@/assets/image11.jpg";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Class from "./Service";
@@ -49,9 +48,7 @@ type Props = {
 const OurClasses = ({ setSelectedPage }: Props) => {
   return (
     <section id="ourclasses" className="w-full bg-primary-100 py-40">
-      <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
-      >
+      <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Service)}>
         <motion.div
           className="mx-auto w-5/6"
           initial="hidden"

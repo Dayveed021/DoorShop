@@ -24,15 +24,21 @@ const Footer = () => {
           }}
         >
           <h4 className="font-bold">Socials</h4>
-          <div className="flex gap-2 align-middle">
+          <div className="flex gap-5 align-middle">
             <div>
-              <i className="fa-brands fa-facebook fa-xl"></i>
+              <a href="/">
+                <i className="fa-brands fa-facebook fa-2xl"></i>
+              </a>
             </div>
             <div>
-              <i className="fa-brands fa-instagram fa-xl"></i>
+              <a href="/">
+                <i className="fa-brands fa-instagram fa-2xl"></i>
+              </a>
             </div>
             <div>
-              <i className="fa-brands fa-twitter fa-xl"></i>
+              <a href="/">
+                <i className="fa-brands fa-twitter fa-2xl"></i>
+              </a>
             </div>
           </div>
         </div>
