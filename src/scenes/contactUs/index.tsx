@@ -55,7 +55,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             experience. Whether you have feedback for us, want to work with us,
             or simply want to enjoy our services, we are always happy to hear
             from you. Please don't hesitate to reach out and let us know how we
-            can assist you.
+            can assist you or improve our services.
           </p>
         </motion.div>
 
